@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-19T17:59:56 IST" name="Suite" finished-at="2021-12-19T18:02:10 IST" duration-ms="133449">
+    <groups>
+    </groups>
+    <test started-at="2021-12-19T17:59:56 IST" name="Test" finished-at="2021-12-19T18:02:10 IST" duration-ms="133449">
+      <class name="com.qa.test.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.LoginPageTest@e383572]" started-at="2021-12-19T18:01:43 IST" name="setup" finished-at="2021-12-19T18:02:05 IST" duration-ms="22332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitlelogin()[pri:1, instance:com.qa.test.LoginPageTest@e383572]" started-at="2021-12-19T18:02:05 IST" name="verifyTitlelogin" finished-at="2021-12-19T18:02:05 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitlelogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@e383572]" started-at="2021-12-19T18:02:05 IST" name="tearDown" finished-at="2021-12-19T18:02:10 IST" duration-ms="4494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifylogin(java.lang.String,java.lang.String)[pri:2, instance:com.qa.test.LoginPageTest@e383572]" started-at="2021-12-19T18:02:10 IST" name="verifylogin" data-provider="getExtentData" finished-at="2021-12-19T18:02:10 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Some DataProvider public java.lang.Object[][] com.qa.test.LoginPageTest.getExtentData(java.lang.String) parameters unresolved:  at 0 type class java.lang.String
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Some DataProvider public java.lang.Object[][] com.qa.test.LoginPageTest.getExtentData(java.lang.String) parameters unresolved:  at 0 type class java.lang.String
+
+at org.testng.internal.MethodInvocationHelper.getParameters(MethodInvocationHelper.java:220)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:145)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+      </class> <!-- com.qa.test.LoginPageTest -->
+      <class name="com.qa.test.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@3f91b517]" started-at="2021-12-19T17:59:56 IST" name="setup" finished-at="2021-12-19T18:00:17 IST" duration-ms="20735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageTiltetest()[pri:1, instance:com.qa.test.HomePageTest@3f91b517]" started-at="2021-12-19T18:00:17 IST" name="verifyHomePageTiltetest" finished-at="2021-12-19T18:00:17 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTiltetest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@3f91b517]" started-at="2021-12-19T18:00:17 IST" name="tearDown" finished-at="2021-12-19T18:00:23 IST" duration-ms="5488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@3f91b517]" started-at="2021-12-19T18:00:23 IST" name="setup" finished-at="2021-12-19T18:00:40 IST" duration-ms="17235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginLinkTest()[pri:2, instance:com.qa.test.HomePageTest@3f91b517]" started-at="2021-12-19T18:00:40 IST" name="verifyLoginLinkTest" finished-at="2021-12-19T18:00:48 IST" duration-ms="7511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@3f91b517]" started-at="2021-12-19T18:00:48 IST" name="tearDown" finished-at="2021-12-19T18:00:51 IST" duration-ms="3771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@3f91b517]" started-at="2021-12-19T18:00:51 IST" name="setup" finished-at="2021-12-19T18:01:09 IST" duration-ms="18020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emailTextTest()[pri:3, instance:com.qa.test.HomePageTest@3f91b517]" started-at="2021-12-19T18:01:09 IST" name="emailTextTest" finished-at="2021-12-19T18:01:10 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailTextTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@3f91b517]" started-at="2021-12-19T18:01:10 IST" name="tearDown" finished-at="2021-12-19T18:01:13 IST" duration-ms="3791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@3f91b517]" started-at="2021-12-19T18:01:13 IST" name="setup" finished-at="2021-12-19T18:01:29 IST" duration-ms="16083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonResistationlinkHomepage()[pri:4, instance:com.qa.test.HomePageTest@3f91b517]" started-at="2021-12-19T18:01:29 IST" name="clickonResistationlinkHomepage" finished-at="2021-12-19T18:01:37 IST" duration-ms="7821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonResistationlinkHomepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@3f91b517]" started-at="2021-12-19T18:01:37 IST" name="tearDown" finished-at="2021-12-19T18:01:43 IST" duration-ms="5648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
